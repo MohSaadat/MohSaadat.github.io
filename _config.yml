@@ -3,17 +3,17 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# `bundle exec jekyll serve -l -H localhost -P 4001`. If you change this file, please restart the server process.
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yuqian Hu"
+title                    : "Moh Sabbir Saadat"
 title_separator          : "-"
-name                     : &name "Yuqian Hu"
-description              : &description "Principal Scientist at Origin Wireless AI"
+name                     : &name "Moh Sabbir Saadat"
+description              : &description "Moh's website"
 url                      : https://mohsaadat.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yuqianhu09/yuqianhu09.github.io"
+repository               : "mohsaadat/mohsaadat.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuqian Hu"
-  avatar           : "yuqianhu2.jpg"
-  bio              : "Principal Scientist at OriginWireless Research"
-  location         : "Rockville, MD, USA"
+  name             : "Moh Sabbir Saadat"
+  pronouns         : "He / Him"
+  avatar           : "msaadat_profile.jpg"
+  bio              : |
+                      Graduate Research Assistant,
+                      Computer Science & Engineering,
+                      University of South Carolina
+  location         : "United States"
   employer         :
   pubmed           : 
-  googlescholar    :  "https://scholar.google.com/citations?user=k1G0E9AAAAAJ&hl=en"
-  email            :
+  googlescholar    :  "https://scholar.google.com/citations?hl=en&user=fNs8oFAAAAAJ"
+  email            :  msaadat@email.sc.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,14 +100,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yuqianhu09"
+  github           : "mohsaadat"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "yuqian-hu"
-  orcid            : "https://orcid.org/0000-0002-1853-2449"
+  linkedin         : "mohsaadat"
+  orcid            : #"https://orcid.org/0000-0002-1853-2449"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
