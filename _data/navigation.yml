@@ -1,0 +1,10 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/   
+    
+  - title: "Biography"
+    url: /cv/
+
+  - title: "Professional Activity"
+    url: /services/
