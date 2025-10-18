@@ -1,2 +1,6 @@
 _site/
 
+# ignore files related to jekyll local serving
+vendor/*
+.bundle/*
+Gemfile.lock
