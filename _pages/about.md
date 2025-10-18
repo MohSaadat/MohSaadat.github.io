@@ -1,19 +1,23 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+title: "Hi, I am Moh..."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-Yuqian Hu received the B.S. degree in electrical engineering from the University of Science and Technology of China (USTC) in July 2017, and the Ph.D. degrees in electrical engineering from the University of Maryland, College Park in 2021, advised by [Prof K. J. Ray Liu](https://kjrayliu.org/) with [the Signal and Information Group (SIG)](http://sig.umd.edu/).
 
-Since 2022, she has been with [Origin Wireless Inc](https://www.originwirelessai.com/) as a Principal Scientist. 
+** This website is still under construction ** \
+I am a Computer Engineering Ph.D. student at the University of South Carolina (UofSC),
+approaching my defense.
+My advisor is Dr. Sanjib Sur who is an Associate Professor at UofSC and is the PI of
+the [SyReX Lab](https://syrex.cse.sc.edu/).
+I completed my B.Sc. in Electrical & Electronics Engineering from Bangladesh University
+of Engineering and Technology (BUET).
 
-Research Interests
-======
-Wireless Sensing, Signal Processing and Internet-of-Things (IoT).
+Research Areas
+==============
+Wireless sensing, Digital health, Multi-modal sensing, Image processing
 
 
  
