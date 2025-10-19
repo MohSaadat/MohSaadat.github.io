@@ -39,3 +39,15 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.pub-badge {
+  display: inline-block;
+  background-color: #800000; /* maroon */
+  color: white;
+  font-weight: bold;
+  font-size: 0.85em;
+  border-radius: 6px;
+  padding: 3px 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
