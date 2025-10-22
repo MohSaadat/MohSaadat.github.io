@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 {% include base_path %}
-<a href="../files/msaadat_resume.pdf" target="_blank">Access my CV as pdf</a>
+<a href="../files/msaadat_resume.pdf" target="_blank"><b>Access my CV as pdf</b></a>
 
 ## Education
 
-* **Ph.D. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[Dec 2025 (Tentative)]*
+* **Ph.D. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[Dec 2025]*
 * **M.S. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[Aug 2024]*
 * **B.Sc. in Electrical & Electronics Engineering**, Bangladesh University of Engineering and Technology, Dhaka, Bangladesh *[Oct 2016]*
 
