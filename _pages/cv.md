@@ -33,4 +33,11 @@ redirect_from:
 	* IEEE/ACM International Conference on Internet of Things Design and Implementation
 	* EAI Mobiquitious
 
+## Skills
+* **Software Engineering**: Python, C++, MATLAB, Java, HTML, Git, Shell scripting, Linux
+* **ML Libraries**: PyTorch, TensorFlow, Keras, Tensorboard, Ray Tune, Scikit-learn, MATLAB Deep Learning
+* **ML Models**: Graph Neural Network, Vision Transformer, GAN, AutoEncoder, Few-shot learning, LSTM
+* **Foundational ML Models**: MobileNet, ResNet, Mediapipe, HRNet, Whisper, WhisperX, BERT, Sentence-BERT
+* **Computational skills**: FMCW Radar signal processing, Image processing, Audio signal processing, PCD processing
+* **Tools**: TI mmWave studio, RTAB-Map, Robot Operating System (ROS), FFmpeg, OpenCV
 
