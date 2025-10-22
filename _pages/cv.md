@@ -18,7 +18,7 @@ redirect_from:
 
 ## Work experience
 * Jan 2019 - Present: Graduate Research / Teaching Assistant
-  * University of South Carolina (Columbia, SC, USA)
+  * [SyReX Lab](https://syrex.cse.sc.edu/) - University of South Carolina (Columbia, SC, USA)
   * Advisor: [Dr. Sanjib Sur](https://cse.sc.edu/~sur/)
 
 * Oct 2016 - Nov 2018: Executive Engineer
