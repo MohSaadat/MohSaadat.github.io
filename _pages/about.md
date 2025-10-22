@@ -19,5 +19,14 @@ Research Areas
 ==============
 Wireless sensing, Digital health, Multi-modal sensing, Image processing
 
+Current Update
+==============
+**As I approach my Ph.D. defense**, I am on the hunt for a role that aligns with my
+background in applied ML and signal processing for perception.
+If you or your team are hiring, please reach out to me:
+[{{ site.author.email }}](mailto:{{ site.author.email }}),
+or connect via [LinkedIn](https://www.linkedin.com/in/{{ site.author.linkedin }}/).
+I would love to have a chat!
+You can find my work experience in my [CV](cv).
 
- 
+
