@@ -32,6 +32,30 @@ html {
   font-weight: 700;
 }
 
+html[data-theme="dark"] .social-icons .fa-map-marker,
+html[data-theme="dark"] .social-icons .fa-map-marker-alt {
+  color: $primary-color;
+}
+
+html[data-theme="dark"] .social-icons .fa-github,
+html[data-theme="dark"] .social-icons .fa-github-alt,
+html[data-theme="dark"] .social-icons .fa-github-square {
+  color: $text-color;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) .social-icons .fa-map-marker,
+  html:not([data-theme]) .social-icons .fa-map-marker-alt {
+    color: $primary-color;
+  }
+
+  html:not([data-theme]) .social-icons .fa-github,
+  html:not([data-theme]) .social-icons .fa-github-alt,
+  html:not([data-theme]) .social-icons .fa-github-square {
+    color: $text-color;
+  }
+}
+
 /* Light theme palette */
 $light-bg: #ffffff;
 $light-page: #f6f8fa;
