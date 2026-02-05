@@ -1,12 +1,14 @@
 .container {
     width:100%;
-    border:1px solid #d3d3d3;
+    border:1px solid #30363d;
+    background-color:#161b22;
 }
 .container div {
     width:100%;
 }
 .container .header {
-    background-color:#d3d3d3;
+    background-color:#21262d;
+    color:#c9d1d9;
     padding: 2px;
     cursor: pointer;
     font-weight: bold;
@@ -14,3 +16,24 @@
 .container .content {
     display: none;
     padding : 5px;
+}
+
+html[data-theme="light"] .container {
+    border:1px solid #d0d7de;
+    background-color:#ffffff;
+}
+html[data-theme="light"] .container .header {
+    background-color:#f0f3f6;
+    color:#1f2328;
+}
+
+@media (prefers-color-scheme: light) {
+    html:not([data-theme]) .container {
+        border:1px solid #d0d7de;
+        background-color:#ffffff;
+    }
+    html:not([data-theme]) .container .header {
+        background-color:#f0f3f6;
+        color:#1f2328;
+    }
+}

@@ -14,6 +14,24 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
+<script>
+  (function () {
+    var storageKey = 'theme-preference';
+    var root = document.documentElement;
+    var stored = null;
+    try {
+      stored = localStorage.getItem(storageKey);
+    } catch (e) {
+      stored = null;
+    }
+    var prefersDark = false;
+    if (window.matchMedia) {
+      prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    var theme = stored === 'light' || stored === 'dark' ? stored : (prefersDark ? 'dark' : 'light');
+    root.setAttribute('data-theme', theme);
+  })();
+</script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">

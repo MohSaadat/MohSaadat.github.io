@@ -1,0 +1,227 @@
+/* ==========================================================================
+   Theme toggle + light theme overrides
+   ========================================================================== */
+
+html {
+  color-scheme: dark;
+}
+
+.greedy-nav .theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  margin: 0.1rem 0.75rem;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  background: $body-color;
+  color: $text-color;
+  font-size: $type-size-7;
+  line-height: 1;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+
+  &:hover,
+  &:focus {
+    color: $primary-color;
+    border-color: $primary-color;
+  }
+}
+
+.theme-toggle__label {
+  font-weight: 700;
+}
+
+/* Light theme palette */
+$light-bg: #ffffff;
+$light-page: #f6f8fa;
+$light-surface: #f0f3f6;
+$light-text: #1f2328;
+$light-muted: #57606a;
+$light-border: #d0d7de;
+$light-primary: #0969da;
+$light-primary-hover: #054da3;
+
+@mixin light-theme-overrides {
+  color-scheme: light;
+  background-color: $light-page;
+  color: $light-text;
+
+  body {
+    background-color: $light-bg;
+    color: $light-text;
+  }
+
+  a {
+    color: $light-primary;
+  }
+
+  a:hover,
+  a:focus {
+    color: $light-primary-hover;
+  }
+
+  a:visited {
+    color: mix(#000, $light-primary, 15%);
+  }
+
+  .masthead {
+    border-bottom-color: $light-border;
+  }
+
+  .greedy-nav {
+    background: $light-bg;
+  }
+
+  .greedy-nav a {
+    color: $light-text;
+  }
+
+  .greedy-nav a:hover {
+    color: $light-primary;
+  }
+
+  .page__footer {
+    background-color: $light-page;
+    color: $light-muted;
+    border-top-color: $light-border;
+  }
+
+  .page__footer .fas,
+  .page__footer .fab,
+  .page__footer .far,
+  .page__footer .fal {
+    color: $light-muted;
+  }
+
+  hr {
+    border-top-color: $light-border;
+  }
+
+  blockquote {
+    border-left-color: $light-primary;
+  }
+
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code {
+    background: $light-surface;
+    border-color: $light-border;
+    color: $light-text;
+  }
+
+  div.highlighter-rouge,
+  figure.highlight {
+    background-color: $light-surface;
+    border-color: $light-border;
+  }
+
+  div.highlighter-rouge:before,
+  figure.highlight:before {
+    background-color: $light-page;
+  }
+
+  table,
+  th,
+  td {
+    border-color: $light-border;
+  }
+
+  thead {
+    background-color: $light-page;
+    border-bottom-color: $light-border;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: $light-bg;
+    border-color: $light-border;
+    color: $light-text;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: $light-primary;
+  }
+
+  .page__comments-form,
+  .well {
+    background-color: $light-page;
+    border-color: $light-border;
+  }
+
+  .modal {
+    background-color: $light-bg;
+    border-color: $light-border;
+  }
+
+  .show-modal:before {
+    background-color: rgba(255, 255, 255, 0.65);
+  }
+
+  .toc,
+  .author__urls,
+  .hidden-links {
+    background-color: $light-bg;
+    border-color: $light-border;
+  }
+
+  .toc__menu a {
+    color: $light-muted;
+  }
+
+  .toc__menu a:hover {
+    color: $light-text;
+    background: $light-surface;
+  }
+
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: $light-text;
+  }
+
+  .greedy-nav .theme-toggle {
+    background: $light-bg;
+    border-color: $light-border;
+    color: $light-text;
+  }
+
+  .greedy-nav .theme-toggle:hover,
+  .greedy-nav .theme-toggle:focus {
+    color: $light-primary;
+    border-color: $light-primary;
+  }
+
+  .page__meta,
+  .footnote,
+  .footnotes,
+  .archive__subtitle {
+    color: $light-muted;
+  }
+
+  .archive__subtitle,
+  .page__share,
+  .page__comments-title,
+  .comment:not(:last-child),
+  .page__taxonomy-item,
+  .pagination,
+  .pagination a,
+  .pagination--pager {
+    border-color: $light-border;
+  }
+}
+
+html[data-theme="light"] {
+  @include light-theme-overrides;
+}
+
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) {
+    @include light-theme-overrides;
+  }
+}
