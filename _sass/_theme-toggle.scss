@@ -228,6 +228,28 @@ $light-primary-hover: #054da3;
     color: $light-muted;
   }
 
+  .social-icons .fa-envelope,
+  .social-icons .fa-graduation-cap,
+  .social-icons .fa-github,
+  .social-icons .fa-github-alt,
+  .social-icons .fa-github-square {
+    color: $light-text;
+  }
+
+  .social-icons a[href^="mailto:"],
+  .social-icons a[href*="linkedin.com"],
+  .social-icons a[href*="github.com"],
+  .social-icons a[href*="scholar.google"] {
+    color: $light-text;
+  }
+
+  .social-icons a[href^="mailto:"]:hover,
+  .social-icons a[href*="linkedin.com"]:hover,
+  .social-icons a[href*="github.com"]:hover,
+  .social-icons a[href*="scholar.google"]:hover {
+    color: $light-text;
+  }
+
   .copy-toast {
     background: $light-text;
     color: $light-bg;
