@@ -228,6 +228,12 @@ $light-primary-hover: #054da3;
     color: $light-muted;
   }
 
+  .copy-toast {
+    background: $light-text;
+    color: $light-bg;
+    border-color: $light-border;
+  }
+
   .archive__subtitle,
   .page__share,
   .page__comments-title,

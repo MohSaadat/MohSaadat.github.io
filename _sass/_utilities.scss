@@ -432,6 +432,35 @@ body:hover .visually-hidden button {
   }
 }
 
+/*
+   Copy toast
+   ========================================================================== */
+
+.copy-toast {
+  position: fixed;
+  top: 1.25rem;
+  left: 50%;
+  z-index: 9999;
+  padding: 0.6rem 0.9rem;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  color: $background-color;
+  background: $text-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  opacity: 0;
+  transform: translate(-50%, -6px);
+  pointer-events: none;
+  -webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  &.is-visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
 
 /*
    Footnotes
