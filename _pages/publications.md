@@ -6,6 +6,16 @@ author_profile: true
 ---
 
 ## Publications
+<span class="pub-badge">TNSRE'26</span> 
+<strong>Moh Sabbir Saadat</strong>, Ryan Titus, Haley Verkuilen, Phil Fleming, Souvik Sen, Sanjib Sur. 2026. 
+"*NeuroMotion:* A Contactless and Automated Approach to Assessing Post-Stroke Severity in Facial and Motor Functions.", 
+Under review @ IEEE Transactions on Neural Systems and Rehabilitation Engineering.
+
+<span class="pub-badge">AHA ISC'25</span> 
+<strong>Moh Sabbir Saadat</strong>, Ryan Titus, Haley Verkuilen, Phil Fleming, Sanjib Sur, Souvik Sen. 2025. 
+<a href="../files/Stroke_ISC25.pdf" target="_blank">"A Contactless and Automated Approach to the Acute Stroke Assessment"</a>, 
+in the AHA International Stroke Conference, Los Angeles, CA, USA.
+
 <span class="pub-badge">CHASE'24</span> 
 <strong>Moh Sabbir Saadat</strong>, Sanjib Sur. 2024. 
 <a href="../files/mNetS_CHASE24.pdf" target="_blank">"Enabling Coexistence of Indoor Millimeter-Wave Networking and Human Activity Sensing"</a>, 

@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-** This website is still under construction ** \
 I am a Computer Engineering Ph.D. student at the University of South Carolina (UofSC),
 approaching my defense.
 My advisor is Dr. Sanjib Sur who is an Associate Professor at UofSC and is the PI of
