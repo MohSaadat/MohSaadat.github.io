@@ -11,6 +11,11 @@ author_profile: true
 "*NeuroMotion:* A Contactless and Automated Approach to Assessing Post-Stroke Severity in Facial and Motor Functions.", 
 Under review @ IEEE Transactions on Neural Systems and Rehabilitation Engineering.
 
+<span class="pub-badge">TNSRE'26</span> 
+<strong>Moh Sabbir Saadat</strong>, Ryan Titus, Haley Verkuilen, Phil Fleming, Souvik Sen, Sanjib Sur. 2026. 
+"*NeuroConv:* An Automated Approach to Assessing Post-Stroke Speech Functions from Audio.", 
+Under review @ IEEE Transactions on Neural Systems and Rehabilitation Engineering.
+
 <span class="pub-badge">AHA ISC'25</span> 
 <strong>Moh Sabbir Saadat</strong>, Ryan Titus, Haley Verkuilen, Phil Fleming, Sanjib Sur, Souvik Sen. 2025. 
 <a href="../files/Stroke_ISC25.pdf" target="_blank">"A Contactless and Automated Approach to the Acute Stroke Assessment"</a>, 
