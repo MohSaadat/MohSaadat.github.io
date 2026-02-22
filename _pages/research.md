@@ -58,6 +58,12 @@ permalink: /research/
   }
 </style>
 
+<p>
+  My research develops practical, contactless, and AI-driven sensing systems for digital health, with a focus on
+  post-stroke assessment and multimodal monitoring in real-world environments. I combine signal processing, computer
+  vision, and machine learning to build robust methods that are accurate, scalable, and deployable on everyday devices.
+</p>
+
 <div class="research-entry">
   <div class="research-title"><strong>Vision and Audio Based Post-stroke Recovery Assessment</strong></div>
   <div class="research-content">
