@@ -4,3 +4,6 @@ _site/
 vendor/*
 .bundle/*
 Gemfile.lock
+
+# ignore the research images files for now
+images/research_images/raw/*
