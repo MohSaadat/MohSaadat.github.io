@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-<a href="../files/msaadat_resume.pdf" target="_blank"><b>Access my CV as pdf</b></a>
+<a href="{{ site['MyCV'] | relative_url }}" target="_blank"><b>Access my CV as pdf</b></a>
 
 ## Education
 

@@ -210,8 +210,8 @@ permalink: /research/
   </div>
   <div class="research-publications">
     Publications:
-    <a href="{{ '/files/msaadat_resume.pdf' | relative_url }}" target="_blank" rel="noopener">Paper1</a>
-    <a href="{{ '/files/msaadat_resume.pdf' | relative_url }}" target="_blank" rel="noopener">Paper2</a>
+    <a href="{{ site['MyCV'] | relative_url }}" target="_blank" rel="noopener">Paper1</a>
+    <a href="{{ site['MyCV'] | relative_url }}" target="_blank" rel="noopener">Paper2</a>
   </div>
 </div>
 
@@ -232,8 +232,8 @@ permalink: /research/
   </div>
   <div class="research-publications">
     Publications:
-    <a href="{{ '/files/msaadat_resume.pdf' | relative_url }}" target="_blank" rel="noopener">Paper1</a>
-    <a href="{{ '/files/msaadat_resume.pdf' | relative_url }}" target="_blank" rel="noopener">Paper2</a>
+    <a href="{{ site['MyCV'] | relative_url }}" target="_blank" rel="noopener">Paper1</a>
+    <a href="{{ site['MyCV'] | relative_url }}" target="_blank" rel="noopener">Paper2</a>
   </div>
 </div>
 -->
