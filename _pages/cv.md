@@ -12,7 +12,7 @@ redirect_from:
 
 ## Education
 
-* **Ph.D. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[Mar 2026]*
+* **Ph.D. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[May 2026]*
 * **M.S. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[Aug 2024]*
 * **B.Sc. in Electrical & Electronics Engineering**, Bangladesh University of Engineering and Technology, Dhaka, Bangladesh *[Oct 2016]*
 
