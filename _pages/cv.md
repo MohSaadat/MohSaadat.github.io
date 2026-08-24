@@ -12,12 +12,16 @@ redirect_from:
 
 ## Education
 
-* **Ph.D. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[May 2026]*
+* **Ph.D. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[July 2026]*
 * **M.S. in Computer Engineering**, University of South Carolina, Columbia, SC, USA *[Aug 2024]*
 * **B.Sc. in Electrical & Electronics Engineering**, Bangladesh University of Engineering and Technology, Dhaka, Bangladesh *[Oct 2016]*
 
 ## Work experience
-* Jan 2019 - Present: Graduate Research / Teaching Assistant
+* Aug 2026 - Present: Post-doctoral Scholar
+  * Department of Medical Physics - Memorial Sloan Kettering Cancer Center (Manhattan, NY, USA)
+  * Advisor: [Dr. Anyi Li](https://www.mskcc.org/profile/anyi-li)
+
+* Jan 2019 - Jul 2026: Graduate Research / Teaching Assistant
   * [SyReX Lab](https://syrex.cse.sc.edu/) - University of South Carolina (Columbia, SC, USA)
   * Advisor: [Dr. Sanjib Sur](https://cse.sc.edu/~sur/)
 

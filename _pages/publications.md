@@ -8,12 +8,12 @@ author_profile: true
 ## Publications
 <span class="pub-badge">TNSRE'26</span> 
 *[Under review]* <strong>Moh Sabbir Saadat</strong>, Ryan Titus, Haley Verkuilen, Phil Fleming, Souvik Sen, Sanjib Sur. 2026. 
-"*NeuroMotion:* A Contactless and Automated Approach to Assessing Post-Stroke Severity in Facial and Motor Functions.", 
+"*NeuroMotion:* A Contactless and Automated System to Assessing Post-Stroke Severity in Facial and Motor Functions.", 
 IEEE Transactions on Neural Systems and Rehabilitation Engineering.
 
 <span class="pub-badge">TNSRE'26</span> 
-*[To be submitted]* <strong>Moh Sabbir Saadat</strong>, Ryan Titus, Haley Verkuilen, Phil Fleming, Souvik Sen, Sanjib Sur. 2026. 
-"*NeuroConv:* An Automated Approach to Assessing Post-Stroke Speech Functions from Audio.", 
+*[Under review]* <strong>Moh Sabbir Saadat</strong>, Ryan Titus, Haley Verkuilen, Phil Fleming, Souvik Sen, Sanjib Sur. 2026. 
+"*NeuroConv:* Towards Automated NIHSS Assessment of Post-Stroke Speech Severity.", 
 IEEE Transactions on Neural Systems and Rehabilitation Engineering.
 
 <span class="pub-badge">AHA ISC'25</span> 
